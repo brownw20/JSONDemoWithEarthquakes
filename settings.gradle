@@ -1,0 +1,2 @@
+rootProject.name='JSONDemoWithEarthquakes'
+include ':app'
