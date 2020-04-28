@@ -38,6 +38,7 @@ public final class NetworkingUtilities {
                 String url = properties.getString("url");
                 Earthquake newEarthquake = new Earthquake(magnitude, location, time, url);
                 earthquakes.add(newEarthquake);
+                //hello
             }
         } catch (JSONException e) {
             Log.e("QueryUtils", "Problem parsing the earthquake JSON results", e);
